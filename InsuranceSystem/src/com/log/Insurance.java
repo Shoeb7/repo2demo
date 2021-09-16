@@ -49,8 +49,9 @@ public class Insurance {
 	public Insurance( String clientnumber, String clienttype, String dob, String mobile, String address,
 			String state, String int_amt, String name, String password, String age, String email, String city,
 			String nation, String no_of_pay, String dat_creat) {
-		super();
 		
+		super();
+		System.out.println("hello");
 		this.clientnumber = clientnumber;
 		this.clienttype = clienttype;
 		this.dob = dob;
